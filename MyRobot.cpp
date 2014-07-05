@@ -15,7 +15,7 @@ public:
 		gamepad(1),		// PS2 gamepad is listed as first controller in drive station.
 		ShiftHigh(3),	// Solenoids (splitter wire off of single output) for high gear on port 3 of solenoid card.
 		ShiftLow(4),	// Solenoids for low gear on port 4 of solenoid card.
-		Compress(1,1)	
+		Compress(1,1)	// Basic info for porting to compressor.
 	{
 		myRobot.SetExpiration(0.1);
 		myRobot.SetSafetyEnabled (false);
